@@ -4,7 +4,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hc_dapp/Pages/view_prescription.dart';
-// import 'package:hc_dapp/Utils/connector.dart';
+import 'package:hc_dapp/Utils/connector.dart';
 import 'package:hc_dapp/Utils/routes.dart';
 import 'package:web3dart/credentials.dart';
 
@@ -334,14 +334,14 @@ class _PatientHomePageState extends State<PatientHomePage> {
                       shrinkWrap: true,
                       itemBuilder: (BuildContext context, int index) {
                         return InkWell(
-                          // onTap: () async {
-                          //   await Navigator.push(
-                          //       context,
-                          //       MaterialPageRoute(
-                          //           builder: (context) => ViewPrescription(
-                          //               index: index + 1,
-                          //               record: prescriptions[index])));
-                          // },
+                          onTap: () async {
+                            await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => ViewPrescription(
+                                        index: index + 1,
+                                        record: prescriptions[index])));
+                          },
                           child: Padding(
                             padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
                             child: Container(

@@ -44,9 +44,7 @@ class _SelectionPageState extends State<SelectionPage> {
                           onPressed: () {
                             // Navigate to next screen when button is pressed
                             Navigator.pushReplacementNamed(
-                                context,
-                                MyRoutes
-                                    .doctorLoginPage); // configure next page here !!
+                                context, MyRoutes.doctorLoginPage);
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Color(0xff05c0ff),
@@ -78,9 +76,7 @@ class _SelectionPageState extends State<SelectionPage> {
                           onPressed: () {
                             // Navigate to next screen when button is pressed
                             Navigator.pushReplacementNamed(
-                                context,
-                                MyRoutes
-                                    .patientLoginPage); // configure next page here !!
+                                context, MyRoutes.patientLoginPage);
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Color(0xffcef3ff),

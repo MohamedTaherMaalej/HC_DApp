@@ -77,9 +77,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
                           onPressed: () {
                             // Navigate to next screen when button is pressed
                             Navigator.pushReplacementNamed(
-                                context,
-                                MyRoutes
-                                    .selectionPage); // configure next page here !!
+                                context, MyRoutes.selectionPage);
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Color(0xff05c0ff),

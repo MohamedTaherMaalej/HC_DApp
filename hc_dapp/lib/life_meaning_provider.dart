@@ -12,7 +12,7 @@ class LifeMeaningProvider extends ChangeNotifier {
   static const String port = "7545";
   final String _rpcURL = "http://$ip:$port";
   final String _wsURL = "ws://$ip:$port";
-  final String _privateKey ="0xddd39a3e8a52e1fb68cf6a52d4e18c3d763bfec5cb9eb912df2dd23e9b8f8901";
+  final String _privateKey ="0x7b2356d06e3ed82837d9df0feaba6c27d0189b9b676ce511489c59d55a5de5ab";
 
   late Web3Client _client;
   late Credentials _credentials;

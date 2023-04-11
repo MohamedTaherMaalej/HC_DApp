@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
-//import 'package:hc_dapp/Utils/connector.dart';
+import 'package:hc_dapp/Utils/connector.dart';
 import 'package:hc_dapp/Utils/routes.dart';
 import 'package:web3dart/web3dart.dart';
 
@@ -157,7 +157,7 @@ class _DoctorHomePageState extends State<DoctorHomePage> {
                       ),
                       child: Center(
                           // child: Text(
-                          //   //Connector.address.toString(),
+                          //   // Connector.address.toString(),
                           //   style: TextStyle(
                           //       fontSize:
                           //           (MediaQuery.of(context).size.width * 0.02),
